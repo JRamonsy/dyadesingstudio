@@ -1,6 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
 import './App.css'
-import logo from '/imgs/logo-dya.png';
 import Cardsection from './components/Cardsection'
 
 // Componente de Modal para servicios
@@ -188,7 +187,7 @@ function App() {
             <div className="flex items-center space-x-4">
               <div className="w-66 h-66 bg-gradient-to-r from-pink-200 to-purple-200 rounded-full flex items-center justify-center shadow-md p-4 hover:scale-105 transition duration-300">
                 <img 
-                  src={logo} 
+                  src='/imgs/logo-dya.png' 
                   alt="logo DyA Desing" 
                   className="ml-3 animate-float" 
                 />
