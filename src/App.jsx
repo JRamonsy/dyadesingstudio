@@ -1,6 +1,6 @@
 import { useState, useEffect, useRef } from 'react'
 import './App.css'
-import Cardsection from './components/Cardsection'
+import Cardsection from './components/CardSection'
 
 // Componente de Modal para servicios
 const ServiceModal = ({ service, isOpen, onClose }) => {
